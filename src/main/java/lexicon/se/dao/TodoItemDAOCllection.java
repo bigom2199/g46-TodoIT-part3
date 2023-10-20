@@ -27,8 +27,8 @@ public class TodoItemDAOCollection implements TodoItemDAO {
             }
         }
 
+   return null;
 
-        return null;
     }
 
     @Override

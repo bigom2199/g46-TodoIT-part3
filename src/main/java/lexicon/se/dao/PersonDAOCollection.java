@@ -14,7 +14,7 @@ public class PersonDAOCollection implements PersonDAO {
         if (Person.getId() == -1){
             Person.setId(PersonId.nextId());
         }
-        return null;
+
         people.remove(a-> a.getId() == person.getId());
         people.add(person);
         return person;
@@ -48,7 +48,7 @@ public class PersonDAOCollection implements PersonDAO {
         return List.copyOf(people);
 
 
-        return null;
+
     }
 
     @Override
