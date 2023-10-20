@@ -39,7 +39,7 @@ public class AppUserDAOCollection implements AppUserDAO {
 
     @Override
     public void remove(String username) {
-        this.users.remove(a-> a.getUsername().equals(username));
+        this.users.remove(a-> a.getusername().equals(username));
 
 
 
